@@ -8,7 +8,7 @@ wb = load_workbook('./Проект.xlsx')
 moder_chat = 0
 
 list = wb.active
-bot = telebot.TeleBot("1165779184:AAELE6Gs19G6Yi-ARpCn3F883gz9816onNs")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands=['start'])
 def privetstvie(message):
