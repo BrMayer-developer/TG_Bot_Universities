@@ -9,7 +9,7 @@ wb = load_workbook('./Проект.xlsx')
 
 list = wb.active
 #сюда API Bota
-bot = telebot.TeleBot("1165779184:AAELE6Gs19G6Yi-ARpCn3F883gz9816onNs")
+bot = telebot.TeleBot("")
 
 marketing=["BA","BB","BC","BD","BE","BF","BG"]
 menedzhment=["BH","BI","BJ","BK","BL","BM","BN"]
